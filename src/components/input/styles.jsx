@@ -6,6 +6,11 @@ export const Con = styled.div`
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  @media (max-width: 500px) {
+    padding-left:.4rem;
+    padding-right:.4rem;
+    
+  }
 `;
 
 export const InputCon = styled.input`
