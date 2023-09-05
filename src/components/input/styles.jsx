@@ -15,6 +15,10 @@ export const InputCon = styled.input`
   border-radius: 6px;
   border: 1.2px solid black;
   flex: 1;
+  @media (max-width: 500px) {
+    padding: 0.4rem .7rem;
+    font-size: 1.2rem;
+  }
 `;
 
 export const StyledPlusIcon = styled(BsPlusCircle)`

@@ -7,4 +7,9 @@ export const Con = styled.main`
   flex-direction: column;
   width: 34rem;
   margin: 0 auto;
+  @media (max-width: 500px) {
+    width: 22rem;
+    margin: 0 auto;
+  }
 `;
+
